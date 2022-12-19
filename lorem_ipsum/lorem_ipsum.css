@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header{
+  width: 90%;
+}
+
+.nav-list{
+  text-align: right;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
