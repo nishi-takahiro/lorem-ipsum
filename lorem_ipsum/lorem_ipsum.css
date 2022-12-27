@@ -13,10 +13,26 @@ header{
   text-align: right;
   padding: 10px 0;
   margin: 0 auto;
+  background-color: #EC715F;
 }
 
 .nav-list-item{
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  color: #FAFAFA;
+}
+
+.main-visual{
+  width: 100%;
+  height: 650px;
+  text-align: center;
+  color: #FAFAFA;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-text{
+  color: #FAFAFA;
 }
