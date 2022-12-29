@@ -6,14 +6,24 @@
 }
 
 header{
-  width: 90%;
+  width: 100%;
+  height: 720px;
+}
+
+.nav{
+  position: relatie;
+}
+
+.logo{
+  width: 147px;
+  height: 70px;
 }
 
 .nav-list{
-  text-align: right;
   padding: 10px 0;
   margin: 0 auto;
   background-color: #EC715F;
+  text-align: right;
 }
 
 .nav-list-item{
@@ -27,12 +37,16 @@ header{
   width: 100%;
   height: 650px;
   text-align: center;
-  color: #FAFAFA;
   background-image: url(img/mv.png);
   background-size: cover;
   background-position: center;
+  color: #FAFAFA;
 }
 
-.main-text{
+.main-title{
+  color: #FAFAFA;
+}
+
+.main-title-text{
   color: #FAFAFA;
 }

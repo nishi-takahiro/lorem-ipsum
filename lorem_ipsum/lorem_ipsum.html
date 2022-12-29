@@ -10,11 +10,13 @@
   <body>
     <header>
       <!--navの位置関係-->
+      <!--ナビのロゴの関係、divタグを作りくくりを工夫して左にずらしていく-->
+      <div class = "container header-group"></div>
       <nav>
-        <a class = "image-link">
-          <img class = "logo"></img>
-        </a>
         <ul class = "nav-list">
+           <a class = "image-link">
+              <img class = "logo", src = "img/logo.png"></img>
+           </a>
           <li class = "nav-list-item">
             <a href= #portflio></a>Portfolio</li>
           <li class = "nav-list-item">Feature</li>
@@ -22,10 +24,11 @@
           <li class = "nav-list-item">Contact</li>
         </ul>
       </nav>
+      
       <div class = "main-visual">
         <div class = "main-text">
-          <h1>Lorem Ipsum</h1>
-          <p>simply dummy text of the printing</p>
+          <h1 class = "main-title">Lorem Ipsum</h1>
+          <p class = "main-title-text">simply dummy text of the printing</p>
         </div>
       </div>
     </header>
