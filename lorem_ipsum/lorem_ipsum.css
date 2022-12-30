@@ -2,16 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #6c6b6b;
+  color: #000;
 }
 
 header{
   width: 100%;
-  height: 720px;
+  height: 70px;
+  background-color: #EC715F;
 }
 
-.nav{
-  position: relatie;
+.header-group{
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo{
@@ -19,17 +21,24 @@ header{
   height: 70px;
 }
 
-.nav-list{
-  padding: 10px 0;
-  margin: 0 auto;
+nav{
+  margin: 0 0;
   background-color: #EC715F;
-  text-align: right;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-list{
+  justify-content: space-around;
 }
 
 .nav-list-item{
+  width: 120px;
+  line-height: 70px;
   list-style: none;
   display: inline-block;
-  margin: 0 20px;
+  font-size: 16px;
+  padding: 0 30px;
   color: #FAFAFA;
 }
 
@@ -44,9 +53,35 @@ header{
 }
 
 .main-title{
+  padding-top: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 64px;
   color: #FAFAFA;
 }
 
 .main-title-text{
   color: #FAFAFA;
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.blog-title{
+  padding-top:90px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+}
+
+.blog-title::after{
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #EC715F
 }

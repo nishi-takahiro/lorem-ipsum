@@ -10,47 +10,49 @@
   <body>
     <header>
       <!--navの位置関係-->
-      <!--ナビのロゴの関係、divタグを作りくくりを工夫して左にずらしていく-->
-      <div class = "container header-group"></div>
-      <nav>
-        <ul class = "nav-list">
-           <a class = "image-link">
-              <img class = "logo", src = "img/logo.png"></img>
-           </a>
-          <li class = "nav-list-item">
-            <a href= #portflio></a>Portfolio</li>
-          <li class = "nav-list-item">Feature</li>
-          <li class = "nav-list-item">Profile</li>
-          <li class = "nav-list-item">Contact</li>
-        </ul>
-      </nav>
-      
+      <div class = "container header-group">
+        <a class = "image-link">
+          <img class = "logo", src = "img/logo.png"></img>
+        </a>
+        <nav>
+          <ul class = "nav-list">
+            <li class = "nav-list-item">
+              <a href= #portflio></a>Portfolio</li>
+            <li class = "nav-list-item">Feature</li>
+            <li class = "nav-list-item">Profile</li>
+            <li class = "nav-list-item">Contact</li>
+          </ul>
+       </nav>
+      </div>
+    </header>
       <div class = "main-visual">
         <div class = "main-text">
           <h1 class = "main-title">Lorem Ipsum</h1>
           <p class = "main-title-text">simply dummy text of the printing</p>
         </div>
-      </div>
-    </header>
-    
+      </div>    
     <main>
-      <section class = "blog">
+      <div class = "blog">
         <div class = "blog-box">
+
           <!--portfolio-->
           <div class = "blog-item">
-            <section class = "blog-text">
-              <div class = "blog-title portfolio">Portfolio</div>
-              <p class = "blog-text-item">
-                It is a long established fact that a reader will be distracted by the readable<br>
-                content of a page when looking at its layout.<br>
-                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
-              </p>
-              
+            <section id = "portfolio">
+              <div class = "container">
+                <div class = "blog-title">
+                  <h2>Portfolio</h2>
+                </div>
+                <p class = "blog-text-item">
+                  It is a long established fact that a reader will be distracted by the readable<br>
+                  content of a page when looking at its layout.<br>
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+                </p>
+              </div>
             </section>
           </div>
           <!--feature-->
           <div class = "blog-item">
-            <section class = "blog-text">
+            <section id = "feature">
               <div class = "blog-title feature">Feature</div>
               <p class = "blog-text-item">
                 It is a long established fact that a reader will be distracted by the readable<br>
@@ -88,7 +90,7 @@
           </div>
           <!--profile-->
           <div class = "blog-item">
-            <section class = "blog-text">
+            <section id = "profile">
               <div class = "blog-title profile">Profile</div>
               <p class = "blog-text-item">
                 It is a long established fact that a reader will be distracted by the readable<br>
@@ -115,7 +117,7 @@
           </div>
           <!--contact-->
           <div class = "blog-item">
-            <section class = "blog-text">
+            <section id = "contact">
               <div class = "blog-title contact">Contact</div>
               <p class = "blog-text-item">
                 It is a long established fact that a reader will be distracted by the readable<br>
@@ -149,7 +151,7 @@
             </section>
           </div>
         </div>
-      </section>
+      </div>
     </main>
     
     <footer>
