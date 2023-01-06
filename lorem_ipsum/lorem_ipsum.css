@@ -158,10 +158,14 @@ nav{
 
 .profile-content{
   display: flex;
-  margin: 30px 0 90px 0;
+  padding: 30px 0 90px 0;
 }
 
 .profile-image{
+  width: 50%;
+}
+
+.profile-textbox{
   width: 50%;
 }
 
@@ -172,6 +176,15 @@ nav{
   border-radius: 50%;
 }
 
-.profile-text{
-  width: 50%;
+.profile-title{
+  font-size: 20px;
+}
+
+.profile-title:first-child{
+  margin-top: 0;
+}
+
+.profile-text-item{
+  margin: 20px 0 5px 0;
+
 }
