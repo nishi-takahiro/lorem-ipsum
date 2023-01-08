@@ -198,14 +198,35 @@ nav{
 }
 
 .contact-content{
-  margin: 30px 0 90px 0;
+  display: flex;
+  width: 800px;
+  padding: 30px 0 90px 0;
+  margin: auto;
 }
 
 .contact-title{
   font-size: 20px;
-  padding-bottom: 5px;
+  margin: 20px 0 5px 0;
+}
+
+.contact-title:first-cild{
+  margin-top: 0;
 }
 
 .contact-content-icon{
   display: flex;
+  margin: 0 auto;
 }
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #EC715F;
+  line-height: 60px;
+}
+
+.copyright{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+} 
