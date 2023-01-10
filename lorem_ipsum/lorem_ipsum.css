@@ -188,8 +188,14 @@ nav{
   margin: 20px 0 5px 0;
 }
 
-.contact-content-text{
+.contact-content-text-group{
   width: 50%;
+  margin: 0 auto;
+}
+
+.contact-content-text{
+  width: 130px;
+  margin: 0 auto;
 }
 
 .contact-content-icon-group{
