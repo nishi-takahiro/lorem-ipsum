@@ -23,23 +23,32 @@ header{
 
 nav{
   margin: 0 0;
-  background-color: #EC715F;
   display: flex;
   justify-content: space-around;
 }
 
 .nav-list{
   justify-content: space-around;
+  display: flex;
+  color: #FAFAFA;
+}
+
+.nav-list a {
+  color: #FAFAFA;
+}
+
+a {
+  text-decoration: none;
 }
 
 .nav-list-item{
   width: 120px;
   line-height: 70px;
-  list-style: none;
+  color: #FAFAFA;
   display: inline-block;
+  list-style: none;
   font-size: 16px;
   padding: 0 30px;
-  color: #FAFAFA;
 }
 
 .main-visual{
@@ -240,3 +249,23 @@ footer{
   color: #FAFAFA;
   text-align: center;
 } 
+
+@media screen and (max-width:768px) {
+  .menu-box{
+   height: 40px;
+   width: 40px;
+   margin-right: 5%;
+   boder: 1px solid #FAFAFA;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   margin-left: auto;
+  }
+  
+  .list-bar{
+    
+  }
+  
+  .menu-box:fast-clid{
+    margin-top: 10px;
+  }
+}
