@@ -255,17 +255,35 @@ footer{
    height: 40px;
    width: 40px;
    margin-right: 5%;
-   boder: 1px solid #FAFAFA;
+   border: 1px solid #FAFAFA;
    margin-top: 5px;
    margin-bottom: 5px;
    margin-left: auto;
   }
   
   .list-bar{
-    
+    display: block;
+    width: 25px;
+    height: 2px;
+    margin: 5px auto;
+    background-color: #FAFAFA;
   }
   
-  .menu-box:fast-clid{
+  .list-bar:first-child{
     margin-top: 10px;
   }
+  
+  .nav-list{
+    display: none;
+    width: 100%;
+    line-height: 50px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    background-color: rgb(0,0,0,9);
+  }
+  
+  .main-visual{
+    background-image: url(img/code.png);
+  }
+  
 }
