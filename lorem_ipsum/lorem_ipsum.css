@@ -309,6 +309,7 @@ footer{
   
   .main-title-text{
     font-size: 18px;
+    padding-top: 10px;
   }
 
 /*portfolio*/
@@ -317,10 +318,13 @@ footer{
     width: 300px;
   }
   
-  .portfolio-img-bg{
+  .production{
     margin-right: 0px;
   }
 
 /*feature*/
 
+  .blog-strength{
+    display: block;
+  }
 }
