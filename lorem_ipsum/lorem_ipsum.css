@@ -324,7 +324,45 @@ footer{
 
 /*feature*/
 
-  .blog-strength{
-    display: block;
+  #feature{
+    background-size: cover;
+    background-position: center;
   }
+  
+  .blog-strength{
+    flex-flow: row wrap;
+    width: 320px;
+  }
+  
+  .blog-strength-content{
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  
+  .blog-strength-content:first-child{
+    margin-top: 0;
+  }
+  
+  /*progile*/
+  
+  .profile-content{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .profile-image .profile-img .profile-textbox{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .progile-text{
+    text-align: center;
+  }
+  
+  .profile-content .profile-image{
+    margin-bottom: 20px;
+  }
+  
 }
