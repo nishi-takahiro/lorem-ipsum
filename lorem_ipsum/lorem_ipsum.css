@@ -313,6 +313,14 @@ footer{
   }
 
 /*portfolio*/
+  
+  .profile-image{
+    width: 100%;
+  }
+  
+  .profile-textbox{
+    width: 100%;
+  }
 
   .portfolio-img{
     width: 300px;
@@ -348,7 +356,6 @@ footer{
   .profile-content{
     display: block;
     text-align: center;
-    margin: 0 auto;
   }
   
   .profile-image .profile-img .profile-textbox{
