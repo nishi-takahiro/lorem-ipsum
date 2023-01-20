@@ -372,4 +372,26 @@ footer{
     margin-bottom: 20px;
   }
   
+  /*contact*/
+  
+  .contact-content{
+    flex-flow: row wrap;
+    width: 100%;
+    text-align: center;
+  }
+  
+   .contact-content-text-group{
+     width: 100%;
+   }
+   .contact-content-icon-group{
+     width: 100%;
+   }
+   
+   .contact-content-icon{
+     width: 100%;
+     margin-top: 20px;
+     justify-content: center;
+   }
+   
+   /*footer*/
 }
